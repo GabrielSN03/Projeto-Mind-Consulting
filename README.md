@@ -2,7 +2,7 @@
 
 # Desrição do projeto
 
-Aplicação WEB para login e cadastro de cursos(integrada a um banco de dados) por um professor com duas principais funcionalidades:
+Aplicação WEB para login e cadastro de cursos(integrada a um banco de dados) por um professor com duas principais aplicações:
  
 - Sistema de LOGIN utilizando e-mail e senha,
 - CRUD dos cursos com as funções adicionar, editar e excluir. 
@@ -15,6 +15,8 @@ Professor responsável, Categoria, Descrição e Imagem.**
 - `Funcionalidade 3` `Dashboard Usuário Admin`: O administrador(com credenciais de administrador) tem acesso a uma tabela contendo todos os cursos cadastrados, além de possuir botões para **cadastrar, alterar e excluir** qualquer curso.
 
 ## :computer: Abrir e rodar o projeto
+
+- Após o download do projeto abra o terminal e "dê" um npm install 
 
 
 
