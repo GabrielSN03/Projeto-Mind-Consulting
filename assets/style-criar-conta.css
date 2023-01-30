@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Play', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background:#44526e;
+}
+
+form{
+    width: 300px;
+    margin: 200px auto;
+    text-align: center;
+}
+
+input{
+    display: block;
+    margin: 10px auto;
+    width: 250px;
+    height: 30px;
+}
+
+.main-div{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.login-div{
+    display: flex;
+    width: 20rem;
+    height: 25rem;
+    margin: auto;
+    background: #Fcfffe;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mb-3{
+    text-align:initial;
+    margin: 20px;
+
+}
+
+.rec-senha{
+    color: #F19b07;
+}
+
+.criar-conta{
+    color: #F19b07;
+}
+
+form h1{
+    color: #F19b07;
+}
+
+form input[type=text],
+form input[type=password]{
+    width: 100%;
+    height: 40px
+
+}
+
+form input[type=submit]{
+    width: 50%;
+    height: 40px;
+    cursor: pointer;
+    background: #44526e;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    
+
+}
