@@ -14,6 +14,7 @@ const FormContainer = styled.form`
     border-radius: 5px;
 `;
 
+
 const InputArea = styled.div`
     display: flex;
     flex-direction: column;
@@ -105,8 +106,8 @@ const Form = ({ getUsers, onEdit, setOnEdit }) => {
                 <Input name="nome" />
             </InputArea>
             <InputArea>
-                <Label>Professor Resp.</Label>
-                <Input name="professor_resp" />
+                <Label>Professor Responsável</Label>
+                <Input name="professor_resp" style={{width: 170}} />
             </InputArea>
             <InputArea>
                 <Label>Categoria</Label>

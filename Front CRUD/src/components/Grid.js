@@ -66,7 +66,7 @@ const Grid = ({users, setUsers, setOnEdit}) => {
             <Thead>
                 <Tr>
                     <Th>Nome</Th>
-                    <Th>Professor Resp.</Th>
+                    <Th>Professor Responsável</Th>
                     <Th>Categoria</Th>
                     <Th onlyWeb>Descrição</Th>
                     <Th></Th>
@@ -77,15 +77,15 @@ const Grid = ({users, setUsers, setOnEdit}) => {
                 {users.map((item, i) => (
                     <Tr key={i}>
                         <Td width="20%">{item.nome}</Td>
-                        <Td width="20%">{item.professor_resp}</Td>
+                        <Td width="30%">{item.professor_resp}</Td>
                         <Td width="20%">{item.categoria}</Td>
                         <Td width="20%" onlyWeb>
                             {item.descricao}
                         </Td>
-                        <Td alignCenter width="10%">
+                        <Td alignCenter width="5%">
                             <FaEdit onClick={() => handleEdit(item)} />
                         </Td>
-                        <Td alignCenter width="10%">
+                        <Td alignCenter width="5%">
                             <FaTrash onClick={() => handleDelete(item.id)} />
                         </Td>
                     </Tr>
