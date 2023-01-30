@@ -39,7 +39,6 @@ CREATE TABLE `cadastro_cursos` (
 
 LOCK TABLES `cadastro_cursos` WRITE;
 /*!40000 ALTER TABLE `cadastro_cursos` DISABLE KEYS */;
-INSERT INTO `cadastro_cursos` VALUES (1,'gabriel','emilio','programação','somente um teste para vermos se vai dar certo ou não',''),(2,'s','ss','sss','sssss','');
 /*!40000 ALTER TABLE `cadastro_cursos` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -52,4 +51,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-01-29 19:47:16
+-- Dump completed on 2023-01-29 21:37:49
