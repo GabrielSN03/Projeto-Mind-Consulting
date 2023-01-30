@@ -7,8 +7,8 @@ Aplicação WEB para login e cadastro de cursos por um professor com duas princi
 
 Foram usadas as seguintes tecnologias:
 
-FRONT:          BACK:          BANCO DE DADOS:
-- HTML          - NODE JS      - MYSQL
+FRONT:       ||     BACK:       ||     BANCO DE DADOS:
+- HTML       ||     - NODE JS   ||   - MYSQL
 - CSS
 - REACT JS      
 
