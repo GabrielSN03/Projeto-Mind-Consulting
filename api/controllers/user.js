@@ -11,7 +11,8 @@ export const getUsers = (_,res)=>{
 };
 
 export const addUser = (req, res) => {
-    const q = "INSERT INTO cadastro_cursos('nome', 'professor_resp', 'categoria', 'descricao') VALUES(?)";
+    const q = 
+    "INSERT INTO crud.cadastro_cursos(`nome`, `professor_resp`, `categoria`, `descricao`) VALUES(?)";
 
     const values = [
         req.body.nome,
@@ -28,7 +29,8 @@ export const addUser = (req, res) => {
 };
 
 export const updateUser = (req, res) => {
-    const q = "UPDATE cadastro_cursos SET 'nome' = ?, 'professor_resp' = ?, 'categoria' = ?, 'descricao' = ? WHERE 'id' = ?";
+    const q = 
+    "UPDATE cadastro_cursos SET `nome` = ?, `professor_resp` = ?, `categoria` = ?, `descricao` = ? WHERE `id` = ?";
 
     const values = [
         req.body.nome,
@@ -38,17 +40,17 @@ export const updateUser = (req, res) => {
     ];
 
     db.query(q, [...values, req.params.id], (err) =>{
-        if(err) return res.json(err);
+        if (err) return res.json(err);
 
         return res.status(200).json("Curso atualizado com sucesso!");
     });
 };
 
 export const deleteUser = (req, res) => {
-    const q = "DELETE FROM cadastro_cursos WHERE 'id' = ?";
+    const q = "DELETE FROM cadastro_cursos WHERE `id` = ?";
 
     db.query(q, [req.params.id], (err) => {
-        if(err) return res.json(err);
+        if (err) return res.json(err);
 
         return res.status(200).json("Curso deletado com sucesso!");
     });
