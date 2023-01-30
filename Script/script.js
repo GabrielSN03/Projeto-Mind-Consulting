@@ -5,7 +5,7 @@ function logar(){
 
     if(login == "admin" && senha == "admin"){
         //location.href = "home.html";
-        location.href = "../public/index.html"
+        location.href = "http://localhost:3000"
     }else{
         alert('Usuário ou senha incorretos!');
     }
