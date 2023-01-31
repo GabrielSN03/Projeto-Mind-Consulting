@@ -1,4 +1,4 @@
-<h1 align="center"> REPOSITÓRIO PARA O PROCESSO SELETIVO DA MIND CONSULTING! </h1>
+<h1 align="center"> CASE PARA O PROCESSO SELETIVO DA MIND CONSULTING! </h1>
 
 # Desrição do projeto
 
