@@ -8,8 +8,8 @@ import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
 
 const Container = styled.div`
-  width: 100%;
-  max-width: 800px;
+  width: 100vw;
+  max-width: 1200px;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
@@ -22,6 +22,7 @@ const Title = styled.h2`
 `;
 
 function App() {
+  //const [image, setImage] = useState('');
   const [users, setUsers] = useState([]);
   const [onEdit, setOnEdit] = useState(null);
 

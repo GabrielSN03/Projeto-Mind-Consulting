@@ -5,12 +5,13 @@ import { FaTrash, FaEdit } from "react-icons/fa";
 import { toast } from "react-toastify";
 
 const Table = styled.table`
-    width: 100%;
+    width: 100vw;
+    height: 20vw;
     background-color: #fff;
     padding: 20px;
     box-shadow: 0px 0px 5px #ccc;
     border-radius: 5px;
-    max-width: 800px;
+    max-width: 1200px;
     margin: 20px auto;
     word-break: break-all;
 `;
@@ -69,6 +70,7 @@ const Grid = ({users, setUsers, setOnEdit}) => {
                     <Th>Professor <br></br>Responsável</Th>
                     <Th>Categoria</Th>
                     <Th onlyWeb>Descrição</Th>
+                    <Th style={{textAlign:"center"}}>Imagem</Th>
                     <Th></Th>
                     <Th></Th>
                 </Tr>
@@ -76,12 +78,13 @@ const Grid = ({users, setUsers, setOnEdit}) => {
             <Tbody>
                 {users.map((item, i) => (
                     <Tr key={i}>
-                        <Td width="20%">{item.nome}</Td>
-                        <Td width="20%">{item.professor_resp}</Td>
-                        <Td width="20%">{item.categoria}</Td>
-                        <Td width="20%" onlyWeb>
+                        <Td width="15%">{item.nome}</Td>
+                        <Td width="15%">{item.professor_resp}</Td>
+                        <Td width="15%">{item.categoria}</Td>
+                        <Td width="15%" onlyWeb>
                             {item.descricao}
                         </Td>
+                        <Td width="30%">{item.imagem}</Td> 
                         <Td alignCenter width="5%">
                             <FaEdit onClick={() => handleEdit(item)} />
                         </Td>
