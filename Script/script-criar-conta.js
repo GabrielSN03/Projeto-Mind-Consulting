@@ -8,6 +8,6 @@ function cadastrar(){
         location.href = "index.html";
         alert('Usuário cadastrado com sucesso!');
     }else{
-        alert('Usuário não cadastrado!');
+        alert('Erro ao realizar o cadastro!');
     }
 }
