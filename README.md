@@ -19,7 +19,7 @@ Professor responsável, Categoria, Descrição e Imagem.**
 - Após o download do projeto, abra o terminal e "dê" um **npm install**;
 - Abra o arquivo "login.html" pelo seu navegador padrão ou pelo Live Server(em caso de alterações);
 - Abra seu terminal e "dê" um **yarn start** na pasta "Api" e na pasta "Front CRUD".
-
+- As credenciais de acesso são: **admin** e **admin** nos campos e-mail e senha.
 ## ✔️ Técnicas e tecnologias utilizadas
 
 - ``HTML``
