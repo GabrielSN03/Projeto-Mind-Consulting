@@ -5,7 +5,7 @@ function cadastrar(){
 
     if(login == "admin" && senha == "admin"){
         //location.href = "home.html";
-        location.href = "login.html";
+        location.href = "index.html";
         alert('Usuário cadastrado com sucesso!');
     }else{
         alert('Usuário não cadastrado!');
